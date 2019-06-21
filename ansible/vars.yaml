@@ -310,6 +310,12 @@ levels          :
     flag    : "SyzSxwkEdjLiHxPl4ATcnRPGWYeE"
     chain   : 18
 
+  - name    : suzen1901
+    password: "suzen1901"
+    sault   : "3dsai45d"
+    flag    : "48TKtaXRVifeQm36d7aNr7QKU3BL"
+    chain   : 19
+
 ## EXAMPLE TEMPLATE
 #  - name    : suzen
 #    password: ""
