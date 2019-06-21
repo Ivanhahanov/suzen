@@ -1,6 +1,6 @@
 ---
-deploy_registry : true
-deploy_web      : true
+deploy_registry : false
+deploy_web      : false
 use_tokens      : true
 build_containers: true
 install_docker  : true
@@ -10,7 +10,7 @@ registry_proto  : http
 registry_url    : "127.0.0.1:5000"
 
 is_online       : "yes"
-tasks_to_build  : "all"
+tasks_to_build  : "18"
 
 rabbitmq_pass   : "password"
 rabbitmq_user   : "user"
@@ -292,6 +292,23 @@ levels          :
     flag    : "217e09Qff7cd34c44f37cd17f347"
     chain   : 15
 
+  - name    : suzen1801
+    password: "suzen1801"
+    sault   : "tCY.XnoD"
+    flag    : "yvBaOx7BI8m0RbNbo6Nx0HD2lsjR"
+    chain   : 18
+
+  - name    : suzen1802
+    password: "yvBaOx7BI8m0RbNbo6Nx0HD2lsjR"
+    sault   : "tCY.XnoD"
+    flag    : "8BmxXWXXyl5hVLOCEPFUWVztRz4o"
+    chain   : 18
+
+  - name    : suzen1803
+    password: "8BmxXWXXyl5hVLOCEPFUWVztRz4o"
+    sault   : "tCY.XnoD"
+    flag    : "SyzSxwkEdjLiHxPl4ATcnRPGWYeE"
+    chain   : 18
 
 ## EXAMPLE TEMPLATE
 #  - name    : suzen
